@@ -58,7 +58,7 @@ const Navbar = () => {
           >
             <div className="relative">
               <div className="w-20 h-20 bg-gradient-to-br from-silver to-gray-300 rounded-xl flex items-center justify-center shadow-lg">
-               <img src="/logo.PNG" alt="logo" className="w-20 h-20 rounded-xl" />
+               <img src="/logo.png" alt="logo" className="w-20 h-20 rounded-xl" />
               </div>
               <motion.div
                 animate={{ rotate: 360 }}
