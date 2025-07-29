@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
@@ -352,7 +353,6 @@ const Tokenomics = () => {
                 key={index}
                 className={`${item.bgColor} ${item.borderColor} border rounded-xl p-4 backdrop-blur-sm cursor-pointer`}
                 whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ type: "spring", stiffness: 300 }}
                 initial={{ opacity: 0, y: 50, scale: 0.8 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true }}
@@ -384,7 +384,6 @@ const Tokenomics = () => {
                 key={index + 4}
                 className={`${item.bgColor} ${item.borderColor} border rounded-xl p-4 backdrop-blur-sm cursor-pointer`}
                 whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ type: "spring", stiffness: 300 }}
                 initial={{ opacity: 0, x: 50, scale: 0.8 }}
                 whileInView={{ opacity: 1, x: 0, scale: 1 }}
                 viewport={{ once: true }}
@@ -409,7 +408,6 @@ const Tokenomics = () => {
             <motion.div
               className="glass p-6 rounded-2xl border border-silver/20 bg-black/40 backdrop-blur-sm"
               whileHover={{ scale: 1.02, y: -2 }}
-              transition={{ type: "spring", stiffness: 300 }}
               initial={{ opacity: 0, rotate: 180, scale: 0.5 }}
               whileInView={{ opacity: 1, rotate: 0, scale: 1 }}
               viewport={{ once: true }}

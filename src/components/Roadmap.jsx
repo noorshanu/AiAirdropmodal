@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable no-unused-vars */
+
 import { motion } from 'framer-motion';
 import { 
   FaRocket, 
@@ -19,7 +20,7 @@ import {
 } from 'react-icons/fa';
 
 const Roadmap = () => {
-  const [activePhase, setActivePhase] = useState(0);
+
 
   const roadmapData = [
     {
