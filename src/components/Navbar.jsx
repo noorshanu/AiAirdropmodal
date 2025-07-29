@@ -26,9 +26,10 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '#home', icon: FaRocket },
-    { name: 'Airdrops', href: '#airdrops', icon: FaGift },
-    { name: 'Community', href: '#community', icon: FaUsers },
+    { name: 'About', href: '#about', icon: FaGift },
+    { name: 'Roadmap', href: '#roadmap', icon: FaUsers },
     { name: 'Tokenomics', href: '#tokenomics', icon: FaChartLine },
+
   ]
 
   const socialLinks = [
@@ -57,9 +58,9 @@ const Navbar = () => {
             className="flex items-center space-x-3 cursor-pointer"
           >
             <div className="relative">
-              <div className="w-20 h-20 bg-gradient-to-br from-silver to-gray-300 rounded-xl flex items-center justify-center shadow-lg">
+              <a href="/" className="w-20 h-20 bg-gradient-to-br from-silver to-gray-300 rounded-xl flex items-center justify-center shadow-lg">
                <img src="/logo.png" alt="logo" className="w-20 h-20 rounded-xl" />
-              </div>
+              </a>
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}

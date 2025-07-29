@@ -179,7 +179,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <section className="relative py-20  overflow-hidden">
+    <section className="relative py-20  overflow-hidden" id="tokenomics">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(147,51,234,0.1),transparent_50%)]"></div>
