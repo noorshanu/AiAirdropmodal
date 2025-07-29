@@ -35,8 +35,9 @@ const Navbar = () => {
 
   const socialLinks = [
     { name: 'Telegram', href: '#', icon: FaTelegram, color: 'text-blue-400 hover:text-blue-300' },
-    { name: 'Twitter', href: '#', icon: FaTwitter, color: 'text-sky-400 hover:text-sky-300' },
-    { name: 'Discord', href: '#', icon: FaDiscord, color: 'text-purple-400 hover:text-purple-300' },
+    { name: 'Twitter', href: 'https://x.com/airdropmodels?s=21', icon: FaTwitter, color: 'text-sky-400 hover:text-sky-300' },
+    
+    // { name: 'Discord', href: '#', icon: FaDiscord, color: 'text-purple-400 hover:text-purple-300' },
   ]
 
   return (

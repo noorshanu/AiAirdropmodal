@@ -259,14 +259,15 @@ const Hero = () => {
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <motion.button
+            <motion.a 
+              href="https://x.com/airdropmodels?s=21"
               className="font-quantico bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center gap-3 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 drop-shadow-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <FaRocket className="text-xl" />
               Join AI Sisterhood
-            </motion.button>
+            </motion.a>
             
             <motion.button
               className="border-2 font-quantico border-silver text-silver px-8 py-4 rounded-full font-bold text-lg flex items-center gap-3 hover:bg-silver hover:text-white transition-all duration-300 drop-shadow-lg backdrop-blur-sm"
@@ -274,7 +275,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <FaSearch className="text-xl" />
-              Explore Airdrops
+          Airdrops Bot
             </motion.button>
           </motion.div>
 
@@ -291,16 +292,16 @@ const Hero = () => {
             >
               <FaTelegram className="text-3xl" />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="#"
               className="text-silver hover:text-blue-400 transition-colors duration-300 drop-shadow-lg font-quantico"
               whileHover={{ scale: 1.2, y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
               <FaDiscord className="text-3xl" />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="#"
+              href="https://x.com/airdropmodels?s=21"
               className="text-silver hover:text-blue-500 transition-colors duration-300 drop-shadow-lg font-quantico"
               whileHover={{ scale: 1.2, y: -2 }}
               whileTap={{ scale: 0.9 }}

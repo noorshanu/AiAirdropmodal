@@ -12,9 +12,9 @@ import {
 const Footer = () => {
   const socialLinks = [
     { name: 'Telegram', href: '#', icon: FaTelegram, color: 'hover:text-blue-400' },
-    { name: 'Twitter', href: '#', icon: FaTwitter, color: 'hover:text-sky-400' },
-    { name: 'Discord', href: '#', icon: FaDiscord, color: 'hover:text-purple-400' },
-    { name: 'GitHub', href: '#', icon: FaGithub, color: 'hover:text-gray-400' },
+    { name: 'Twitter', href: 'https://x.com/airdropmodels?s=21', icon: FaTwitter, color: 'hover:text-sky-400' },
+    // { name: 'Discord', href: '#', icon: FaDiscord, color: 'hover:text-purple-400' },
+    // { name: 'GitHub', href: '#', icon: FaGithub, color: 'hover:text-gray-400' },
   ];
 
   const quickLinks = [
